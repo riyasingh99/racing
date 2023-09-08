@@ -1,0 +1,61 @@
+.footer{
+  background:black;
+}
+.foot{
+  display: flex;
+  width: 100%;
+  justify-content:end;
+  background: black;
+  color: white;
+  height: auto;
+}
+.subscribe{
+  
+  flex:2;
+  margin-left: 20px;
+}
+.Contact{
+  flex:1;  
+}
+.Contact p{
+  font-size: 12px;
+  color:rgb(208, 204, 204);
+}
+.Media{
+  flex:1;
+}
+.last{
+  text-align: center;
+  color:rgb(208, 204, 204);
+  font-size: 12px;
+}
+.submit_btn{
+  background-color: #478AC9;
+  background-image: none;
+    border-style: none;
+    border-radius:20px;
+    text-transform: uppercase;
+    width: 100%;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px 20px 15px;
+    color:white;
+}
+@media(max-width:450px){
+  .foot{
+    display: block;
+    text-align: center;
+  }
+  .Sub_h5,.input_email,.sub_btn{
+    text-align:center;
+  }
+  .input_email{
+    align-items: center;
+    margin-left: 20%;
+  }
+  .submit_btn{
+    margin-left:30%;
+  }
+  
+}
